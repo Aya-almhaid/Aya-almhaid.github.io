@@ -7,7 +7,7 @@
   <meta name="description" content="Aya AlMhaid — Full-Stack Developer building role-based healthcare management systems with React, Node.js and PostgreSQL." />
   <link rel="icon" href="data:,">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -30,17 +30,28 @@
   <main>
     <section id="home" class="hero">
       <div class="container hero-inner">
-        <p class="hero-greeting">Hi, I'm</p>
-        <h1>Aya AlMhaid</h1>
-        <h2 class="hero-title">Full-Stack Developer</h2>
+        <p class="hero-tag"><span></span> Available for work · Irbid, Jordan</p>
+        <h1>
+          <span class="line-purple">Aya AlMhaid</span><br />
+          <span class="line-teal">Full-Stack Developer</span>
+        </h1>
         <p class="hero-text">
           I build full-stack web applications with role-based access control,
           using the <strong>PERN stack</strong> (PostgreSQL, Express, React, Node.js)
-          and Material UI — with a focus on healthcare &amp; clinic management systems.
+          and Material UI — with a background in <span class="line-coral">networking (CCNA)</span>
+          that shapes how I think about systems end to end.
         </p>
         <div class="hero-actions">
           <a href="#projects" class="btn btn-primary">View Projects</a>
           <a href="#contact" class="btn btn-outline">Get in Touch</a>
+        </div>
+        <div class="hero-stack">
+          <span>Built with</span>
+          <span class="stack-pill">React</span>
+          <span class="stack-pill">Node.js</span>
+          <span class="stack-pill">Express</span>
+          <span class="stack-pill">PostgreSQL</span>
+          <span class="stack-pill">MUI</span>
         </div>
         <div class="hero-socials">
           <a href="https://github.com/Aya-almhaid" target="_blank" rel="noopener noreferrer" aria-label="GitHub">GitHub</a>
@@ -103,7 +114,7 @@
         <h3 class="section-title"><span>03.</span> Projects</h3>
         <div class="projects-grid">
 
-          <article class="project-card">
+          <article class="project-card purple">
             <div class="project-card-head">
               <h4>Clinic Management System</h4>
               <a href="https://github.com/Aya-almhaid/mid-term-pro-" target="_blank" rel="noopener noreferrer">Code →</a>
@@ -113,12 +124,12 @@
               covering patients, medical records, doctor availability, appointment scheduling,
               and a full billing &amp; invoicing module with payment tracking.
             </p>
-            <ul class="tech-tags">
+            <ul class="tech-tags purple">
               <li>React</li><li>TypeScript</li><li>Express</li><li>Prisma</li><li>PostgreSQL</li><li>MUI</li>
             </ul>
           </article>
 
-          <article class="project-card">
+          <article class="project-card teal">
             <div class="project-card-head">
               <h4>Clinic PERN MUI</h4>
               <a href="https://github.com/Aya-almhaid/-clinic_pern_mui" target="_blank" rel="noopener noreferrer">Code →</a>
@@ -128,7 +139,7 @@
               medical records &amp; prescriptions, a moderated feedback system, and
               profile management with secure password changes.
             </p>
-            <ul class="tech-tags">
+            <ul class="tech-tags teal">
               <li>React</li><li>Node.js</li><li>Express</li><li>PostgreSQL</li><li>MUI</li>
             </ul>
           </article>
