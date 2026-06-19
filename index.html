@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aya AlMhaid — Full-Stack Developer</title>
+  <meta name="description" content="Aya AlMhaid — Full-Stack Developer building role-based healthcare management systems with React, Node.js and PostgreSQL." />
+  <link rel="icon" href="data:,">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="container navbar-inner">
+      <a href="#home" class="logo">Aya<span>.</span></a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <p class="hero-greeting">Hi, I'm</p>
+        <h1>Aya AlMhaid</h1>
+        <h2 class="hero-title">Full-Stack Developer</h2>
+        <p class="hero-text">
+          I build full-stack web applications with role-based access control,
+          using the <strong>PERN stack</strong> (PostgreSQL, Express, React, Node.js)
+          and Material UI — with a focus on healthcare &amp; clinic management systems.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-outline">Get in Touch</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://github.com/Aya-almhaid" target="_blank" rel="noopener noreferrer" aria-label="GitHub">GitHub</a>
+          <a href="https://www.linkedin.com/in/aya-almhaid/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">LinkedIn</a>
+          <a href="mailto:ayaalmhaid993@gmail.com" aria-label="Email">Email</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h3 class="section-title"><span>01.</span> About Me</h3>
+        <div class="about-content">
+          <p>
+            I'm a full-stack developer who enjoys turning real-world workflows into clean,
+            usable software. Most of my recent work has centered on
+            <strong>clinic &amp; healthcare management systems</strong> — building
+            multi-role platforms (admin, doctor, receptionist, patient) with secure
+            authentication, appointment scheduling, medical records, and billing.
+          </p>
+          <p>
+            I care about getting the details right: proper role-based access control,
+            validated APIs, and interfaces that stay simple even as features grow.
+            I'm comfortable across the stack — from designing a PostgreSQL schema to
+            shipping a polished React + MUI interface on top of it.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <h3 class="section-title"><span>02.</span> Skills</h3>
+        <ul class="skills-grid">
+          <li>JavaScript (ES6+)</li>
+          <li>TypeScript</li>
+          <li>React &amp; Vite</li>
+          <li>Node.js &amp; Express</li>
+          <li>PostgreSQL</li>
+          <li>Prisma ORM</li>
+          <li>Material UI</li>
+          <li>REST APIs</li>
+          <li>JWT &amp; RBAC Auth</li>
+          <li>TanStack Query</li>
+          <li>Git &amp; GitHub</li>
+          <li>Responsive Design</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h3 class="section-title"><span>03.</span> Projects</h3>
+        <div class="projects-grid">
+
+          <article class="project-card">
+            <div class="project-card-head">
+              <h4>Clinic Management System</h4>
+              <a href="https://github.com/Aya-almhaid/mid-term-pro-" target="_blank" rel="noopener noreferrer">Code →</a>
+            </div>
+            <p>
+              A role-based clinic platform for Admin, Doctor, Receptionist and Patient users —
+              covering patients, medical records, doctor availability, appointment scheduling,
+              and a full billing &amp; invoicing module with payment tracking.
+            </p>
+            <ul class="tech-tags">
+              <li>React</li><li>TypeScript</li><li>Express</li><li>Prisma</li><li>PostgreSQL</li><li>MUI</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card-head">
+              <h4>Clinic Health System</h4>
+            </div>
+            <p>
+              A final-project healthcare app built with raw SQL (no ORM) for full control
+              over queries — featuring JWT cookie auth, admin CRUD management, appointment
+              request workflows, feedback moderation, and a patient shopping cart.
+            </p>
+            <ul class="tech-tags">
+              <li>React</li><li>Vite</li><li>Express</li><li>PostgreSQL</li><li>MUI</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card-head">
+              <h4>Clinic PERN MUI</h4>
+              <a href="https://github.com/Aya-almhaid/-clinic_pern_mui" target="_blank" rel="noopener noreferrer">Code →</a>
+            </div>
+            <p>
+              A three-role clinic app (Patient, Doctor, Admin) with appointment booking,
+              medical records &amp; prescriptions, a moderated feedback system, and
+              profile management with secure password changes.
+            </p>
+            <ul class="tech-tags">
+              <li>React</li><li>Node.js</li><li>Express</li><li>PostgreSQL</li><li>MUI</li>
+            </ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt">
+      <div class="container contact-inner">
+        <h3 class="section-title"><span>04.</span> Get In Touch</h3>
+        <p>I'm open to new opportunities and collaborations — feel free to reach out.</p>
+        <div class="contact-links">
+          <a class="btn btn-primary" href="mailto:ayaalmhaid993@gmail.com">ayaalmhaid993@gmail.com</a>
+          <a class="btn btn-outline" href="https://github.com/Aya-almhaid" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a class="btn btn-outline" href="https://www.linkedin.com/in/aya-almhaid/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Aya AlMhaid. Built with HTML, CSS &amp; JS.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
